@@ -13,5 +13,6 @@ I'm consistently improving my problem-solving skills to prepare for **SDE/SRE** 
 leetcode-solutions/
 ├── sql/               # SQL LeetCode solutions (LeetCode SQL 50 and more)
 ├── java/              # Java DSA problems
+├──javascript/             
 ├── system-design/     # System Design notes, diagrams, and Q&A (Coming soon)
 └── README.md
