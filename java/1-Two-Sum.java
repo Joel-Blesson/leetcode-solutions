@@ -1,13 +1,21 @@
+import java.util.HashMap;
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            int remaining = target - nums[i];  // Calculate needed value
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[j] == remaining) {
-                    return new int[]{i, j};  // Return indices of the two numbers
-                }
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i=0; i< nums.length; i++){
+            int current = nums[i];
+            int needed = target - current;
+
+            if(map.containsKey(needed)){
+                return new int[]{map.get(needed),i};
             }
+
+            map.put(current, i);
+
         }
-        return new int[]{}; // In case no pair is found
+
+        return new int[]{};
+        
     }
 }
