@@ -1,18 +1,27 @@
 # 📘 LeetCode Solutions by Joel Blesson
 
-Hi, I'm Joel!  
-This repository is my personal log of solving **LeetCode** questions with clean, structured code in **SQL**, **Java**, and soon, **System Design**.
+## About
+This repository contains my structured solutions to Data Structures & Algorithms problems from LeetCode.
 
-I'm consistently improving my problem-solving skills to prepare for **SDE/SRE** roles.
+- 💻 Language: Java (Primary), SQL
+- 🧠 Focus: Problem-solving, patterns, and optimization
+- 📈 Consistency: Solving problems daily
 
----
+## Progress
+- Total Problems Solved: 40+  
+- Topics Covered:
+  - Arrays
+  - Strings
+  - Sliding Window
+  - Hashing
+  - SQL Basics
 
-## 📂 Folder Structure
-
-```bash
+## Folder Structure
 leetcode-solutions/
-├── sql/               # SQL LeetCode solutions (LeetCode SQL 50 and more)
-├── java/              # Java DSA problems
-├──javascript/             
-├── system-design/     # System Design notes, diagrams, and Q&A (Coming soon)
-└── README.md
+├── sql/               # SQL problems
+├── java/              # Java DSA solutions
+├── javascript/        
+├── system-design/     # (Coming soon)
+
+## Goal
+To strengthen problem-solving skills and prepare for backend/SDE roles.
