@@ -16,12 +16,5 @@ This repository contains my structured solutions to Data Structures & Algorithms
   - Hashing
   - SQL Basics
 
-## Folder Structure
-leetcode-solutions/
-├── sql/               # SQL problems
-├── java/              # Java DSA solutions
-├── javascript/        
-├── system-design/     # (Coming soon)
-
 ## Goal
 To strengthen problem-solving skills and prepare for backend/SDE roles.
